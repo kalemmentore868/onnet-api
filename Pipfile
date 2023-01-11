@@ -8,6 +8,8 @@ django = "*"
 djangorestframework = "*"
 yagmail = "*"
 python-dotenv = "*"
+pathlib = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
