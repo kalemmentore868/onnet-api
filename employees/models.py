@@ -7,4 +7,4 @@ class Employee(models.Model):
     email = models.CharField(max_length=200)
     phone = models.CharField(max_length=200, blank=True)
     position = models.CharField(max_length=200)
-    resume = models.FileField(blank=True, null=True, upload_to='files/')
+    resume = models.FileField(blank=True, null=True, upload_to='staticfiles/files/')
