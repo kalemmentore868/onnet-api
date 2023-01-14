@@ -29,6 +29,8 @@ def postEmployee(request):
     serializer = EmployeeSerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
+    else:
+        print(serializer.errors)
     data = serializer.data
     content = f"New Website request. see details {data}"
     file = data["resume"]

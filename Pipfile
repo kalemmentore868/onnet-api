@@ -10,6 +10,7 @@ yagmail = "*"
 python-dotenv = "*"
 pathlib = "*"
 django-cors-headers = "*"
+gunicorn = "*"
 
 [dev-packages]
 

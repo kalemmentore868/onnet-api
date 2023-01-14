@@ -1,0 +1,1 @@
+web: gunicorn onnetApi.wsgi --log-file -
